@@ -9,8 +9,13 @@ Store filenames in cookies to maintain state.
 
 ## How It Works
 main.go: The main application file containing the server logic.
+
 init(): Parses templates from the templates directory.
+
 main(): Sets up route handlers and starts the server.
+
 index(): Handles file uploads, saves files, updates cookies, and renders the template.
+
 cookie(): Manages session cookies.
+
 saveToCookie(): Adds filenames to cookies.
